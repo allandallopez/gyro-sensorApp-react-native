@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import Animated from 'react-native-reanimated'
 
-function ThreedCube() {
+const ThreedCube = () => {
    return (
       <Animated.View style={styles.cardContainer}>
          <LinearGradient
